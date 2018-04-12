@@ -1,0 +1,16 @@
+{
+  "name": "webrtc-file-share-serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository":
+    "https://shadowing.infotechfl.com/river.ross/webrtc-file-share-serverless.git",
+  "author": "Kbarrera123 <kaylabarrera@ufl.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "twilio": "^3.14.0"
+  },
+  "scripts": {
+    "zip":
+      "touch archive.zip && rm archive.zip && zip -r archive.zip node_modules/ index.js package.json"
+  }
+}
