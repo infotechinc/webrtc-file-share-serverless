@@ -13,7 +13,7 @@ exports.handler = async event => {
     body: JSON.stringify({ iceServers: token.iceServers }),
     headers: {
       "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "*"
+      "Access-Control-Allow-Origin": process.env.allowedOrigin
     }
   };
 };
