@@ -12,7 +12,3 @@ API to fetch Twilio's STUN and TURN servers. Use of a TURN server allows WebRTC 
 
 * Kayla Barrera
 * River Ross
-
-## License
-
-This project is licensed under the Info Tech License
